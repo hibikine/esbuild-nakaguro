@@ -1,0 +1,14 @@
+{
+  "name": "esbuild-nakaguro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "esbuild --minify ./index.js --outfile=./build.js && node ./build.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "esbuild": "0.12.27"
+  }
+}
